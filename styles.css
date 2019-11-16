@@ -66,10 +66,10 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
+  margin-top: 35px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -77,16 +77,33 @@ header .profile-image:hover {
   transform: scale(1.2);
 }
 .tag {
-  background-color: #efefef;
+  background-color: rgb(119, 178, 247);
   color: black;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 5px;
+  border-radius: 2px;
   display: table;
-  margin: 10px auto;
+  margin: 5px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: lightgrey;
+  color: blue;
+}
+.tag-name {
+  background-color: rgb(119, 178, 247);
+  color: black;
+  margin-top: 35px;
+  padding: 5px;
+  border-radius: 2px;
+  display: table;
+  margin: 2px auto;
+} 
+.tag-location {
+  background-color: lightgrey;
+  color: blue;
+  padding: 5px;
+  border-radius: 2px;
+  display: table;
+  margin: 5px auto;
 }
 .card {
   margin: 30px;
@@ -97,6 +114,9 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+}
+.card ul {
+  line-height: 1.5;
 }
 .card:hover {
   border-color: #ff99ff;
